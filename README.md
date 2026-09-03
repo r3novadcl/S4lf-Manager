@@ -333,7 +333,7 @@ Random external image URLs may not render correctly as Rich Presence assets.
 ### 1. Clone the Repository
 
 ```bash
-git clone YOUR_REPOSITORY_URL
+git clone https://github.com/r3novadcl/S4lf-Manager.git
 cd S4lf-manager
 ```
 
@@ -354,10 +354,7 @@ protobuf
 ### 3. Configure Your Credentials
 
 Configure your Discord account session securely.
-
-Do not publish account credentials or tokens inside a public repository.
-
-If the project is configured to read the token from an environment variable, use:
+Add Your Account To4en in "main.py" or create a .env file.
 
 ```python
 TOKEN = os.getenv("DISCORD_TOKEN")
